@@ -1,5 +1,17 @@
-h1 {
-    color: rgb(247, 247, 247);
+h1{
+
+    text-align: center;
+    color: #ffffff;
     font-family: monospace;
     font-size: 500%;
-  }
+    padding-top: 50px;
+}
+
+.homebutton
+{
+
+    width: 25px;
+    heigth: 10px;
+    background-color: #75ecf5;
+
+}

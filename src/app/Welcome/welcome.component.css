@@ -1,0 +1,31 @@
+h1 {
+    color: rgb(247, 247, 247);
+    font-family: monospace;
+    font-size: 500%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  /* .rootbody
+  {
+    background-image: url('http://www.landecsurvey.com/images/banner44.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  } */
+
+  p{
+    color: rgb(247, 247, 247);
+    font-family: monospace;
+    width: 100%;
+    font-size: 30px;
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 65px;
+
+  }
+
+  p span{
+  color: #fa543e;
+  font-weight: bold;
+  }

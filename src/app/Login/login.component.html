@@ -6,16 +6,19 @@
             <p>Log-in to access the awesomeness!</p>
             <p class="message"></p>
         </div>
-        <input type="email" name="email" placeholder="Email">
+        <div class="emailbox">
+        <input type="email" name="email" placeholder="Email" [(ngModel)] = "userEmail">
         <p class="error validationerror">
             Must be a valid email</p>
-
-
-        <input type="password" name="password" placeholder="Password">
+        </div>
+        <div class="passwordbox">
+        <input type="password" name="password" placeholder="Password" [(ngModel)] = "userPassword">
         <p class="error validationerror">
             Password is required</p>
+        </div>
 
-        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn" (click)="submitDetails()">Login</button>
         <p>or <a href="#/register">Register</a></p>
+        <p style="display:'{{isValid}}'">{{message}}</p>
     </form>
 </section>
